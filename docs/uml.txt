@@ -1,0 +1,7 @@
+//
+// http://yuml.me/f391fe84
+//
+[NSObject]^-[EmployeeBase| fullname; salary],
+[EmployeeBase| fullname; salary]^-[Employee| workplaceNumber; lunchTime],
+[Employee| workplaceNumber; lunchTime]^-[Accountant| specialization],
+[EmployeeBase| fullname; salary]^-[Executive| officeHours]
